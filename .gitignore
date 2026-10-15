@@ -1,0 +1,33 @@
+# Local environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Downloaded data and generated model artifacts
+data/
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+models/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# New run outputs; retain the submitted evidence files
+results/*
+!results/selftest_results_21windows.csv
+!results/selftest_summary_21windows.csv
+submissions/*
+!submissions/week1_SUBMIT.csv
+!submissions/week2_SUBMIT.csv
+submission.csv
